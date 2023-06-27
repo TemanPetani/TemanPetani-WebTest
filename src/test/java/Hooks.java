@@ -14,7 +14,7 @@ public class Hooks {
         WebDriverManager.chromedriver().setup();
         co.addArguments("--remote-allow-origins=*");
         webDriver = new ChromeDriver(co);
-        String URL = "https://www.saucedemo.com/";
+        String URL = "https://teman-petani-web.vercel.app/";
         webDriver.get(URL);
         webDriver.manage().window().maximize();
     }
