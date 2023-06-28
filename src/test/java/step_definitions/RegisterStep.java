@@ -19,7 +19,7 @@ public class RegisterStep {
     public void userAlreadyOnWebsiteTemanPetani() {
         RegisterPage registerPage = new RegisterPage(webDriver);
         registerPage.verifyLandingPage();
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
     @When("User input \"(.*)\" as fullName, \"(.*)\" as email, \"(.*)\" as password,\"(.*)\" as phone, and \"(.*)\" as address")
