@@ -1,5 +1,6 @@
 package org.example.pageObject;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,7 +16,7 @@ public class LoginFeature {
     @FindBy(xpath = "//a[@id='navbar-to-login']")
     private WebElement loginLandingButton;
 
-    @FindBy(xpath = "//img[@alt='img logo']")
+    @FindBy(css = "[alt='img logo']")
     private WebElement verifyLandingPage;
 
     @FindBy(xpath = "//p[@class='text-4xl font-semibold text-base-100']")
@@ -33,11 +34,11 @@ public class LoginFeature {
     private WebElement loginPageButton;
 
 
-    @FindBy(xpath = "//button[@class='swal2-confirm swal2-styled swal2-default-outline']")
+    @FindBy(xpath = "//button[contains(text(),'OK')]")
     private WebElement okButton;
 
 
-    @FindBy(xpath = "//img[@alt='img logo']")
+    @FindBy(css = "[alt='img logo']")
     private WebElement verifyHomePage;
 
 
@@ -45,8 +46,8 @@ public class LoginFeature {
         loginLandingButton.click();
     }
 
-    public boolean verifyLandingPage() {
-        return verifyLandingPage.isDisplayed();
+    public void verifyLandingPage() {
+        verifyLandingPage.isDisplayed();
     }
 
     public boolean verifyLoginPage() {
@@ -58,14 +59,22 @@ public class LoginFeature {
         passwordField.sendKeys(password);
     }
 
-    public void clickLoginPageButton() throws InterruptedException {
+    public void clickLoginPageButton(){
         loginPageButton.click();
-        Thread.sleep(2000);
-        okButton.click();
     }
 
-    public boolean verifyHomePage() {
-        return verifyHomePage.isDisplayed();
+    public void verifyHomePageLogin() {
+        verifyHomePage.isDisplayed();
+    }
+
+    public void verifyNotifLogin(String message){
+        String messagePopUp = "//div[contains(text(),'"+message+"')]";
+        driver.findElement(By.xpath(messagePopUp)).isDisplayed();
+    }
+
+    public void clickOkLogin() {
+        okButton.isDisplayed();
+        okButton.click();
     }
 }
 
