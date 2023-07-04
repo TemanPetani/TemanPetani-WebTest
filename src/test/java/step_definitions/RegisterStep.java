@@ -1,4 +1,5 @@
 package step_definitions;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -21,7 +22,6 @@ public class RegisterStep {
     @Given("User already on website TemanPetani")
     public void userAlreadyOnWebsiteTemanPetani() {
         RegisterPage registerPage = new RegisterPage(webDriver);
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         registerPage.verifyLandingPage();
     }
 
