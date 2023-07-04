@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginFeature {
     public static WebDriver driver;
@@ -47,7 +49,9 @@ public class LoginFeature {
     }
 
     public void verifyLandingPage() {
-        verifyLandingPage.isDisplayed();
+        String path = "//p[@class='font-semibold text-3xl text-base-100 md:drop-shadow-lg tracking-wide'][.='TEMAN PETANI']";
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(path))).click();
     }
 
     public boolean verifyLoginPage() {
