@@ -22,12 +22,10 @@ public class EditUserFeature {
         iconProfile.click();
     }
 
-    @FindBy(xpath = "//a[.='Profil']")
-    private static WebElement menuProfile;
-
-    public void clickMenuProfile(){
-        menuProfile.isDisplayed();
-        menuProfile.click();
+    public void clickMenu(String menu) {
+        String menuName = "//a[.='"+menu+"']";
+        driver.findElement(By.xpath(menuName)).isDisplayed();
+        driver.findElement(By.xpath(menuName)).click();
     }
 
     @FindBy(xpath = "//p[2]/label[contains(text(),'Ubah')]")
