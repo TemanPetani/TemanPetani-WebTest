@@ -1,12 +1,16 @@
 package step_definitions;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.example.pageObject.RegisterPage;
 
 import java.time.Duration;
+
+import static net.andreinc.mockneat.unit.user.Emails.emails;
 
 public class RegisterStep {
     private WebDriver webDriver;
@@ -19,7 +23,7 @@ public class RegisterStep {
     public void userAlreadyOnWebsiteTemanPetani() {
         RegisterPage registerPage = new RegisterPage(webDriver);
         registerPage.verifyLandingPage();
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @When("User input \"(.*)\" as fullName, \"(.*)\" as email, \"(.*)\" as password,\"(.*)\" as phone, and \"(.*)\" as address")
@@ -68,4 +72,22 @@ public class RegisterStep {
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
+    @When("User input unregistered email and phone")
+    public void userInputUnregisteredEmailAndPhone() {
+        RegisterPage registerPage = new RegisterPage(webDriver);
+        String phone = "0" + RandomStringUtils.randomNumeric(10);
+        String email = emails().domain("temanpetani.id").get();
+        registerPage.setPhone(phone);
+        registerPage.setEmail(email);
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    }
+
+    @And("User input \"(.*)\" as fullName, \"(.*)\" as password, and \"(.*)\" as address")
+    public void userInputAsFullNameAsPasswordAndAsAddress(String fullName, String password, String address) {
+        RegisterPage registerPage = new RegisterPage(webDriver);
+        registerPage.setFullName(fullName);
+        registerPage.setPassword(password);
+        registerPage.setAddress(address);
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+    }
 }

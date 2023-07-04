@@ -14,11 +14,11 @@ public class RegisterPage {
         this.driver = driver;
     }
 
-    @FindBy(xpath = "//img[@alt='img logo']")
+    @FindBy(css = "[alt='img logo']")
     private static WebElement titleHomePage;
 
-    public static boolean verifyLandingPage(){
-        return titleHomePage.isDisplayed();
+    public void verifyLandingPage(){
+        titleHomePage.isDisplayed();
     }
 
     @FindBy(xpath = "//a[@id='navbar-to-register']")
