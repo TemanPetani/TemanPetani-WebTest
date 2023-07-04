@@ -20,7 +20,6 @@ public class EditUserSteps {
         editUserFeature.clickIconProfile();
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
-
     @And("User click menu \"(.*)\"")
     public void userClickMenu(String menu) {
         EditUserFeature editUserFeature = new EditUserFeature(webDriver);
