@@ -12,7 +12,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu Profil
     Then User already on profile page
     When User click ubah on field name
     Then Pop up Edit Nama will show
@@ -31,7 +31,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu Profil
     Then User already on profile page
     When User click ubah on field email
     Then Pop up Edit Email will show
@@ -50,7 +50,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click ubah on field phone
     Then Pop up Edit Phone will show
@@ -69,7 +69,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click ubah on field address
     Then Pop up Edit Address will show
@@ -88,7 +88,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click ubah on field rekening
     Then Pop up Edit Rekening will show
@@ -107,7 +107,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click ubah on field bank
     Then Pop up Edit Bank will show
@@ -126,7 +126,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click icon edit in user picture
     Then Pop up Edit Avatar will show
@@ -145,7 +145,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click button ganti password
     Then Pop up Edit Password will show
@@ -169,7 +169,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click button ganti password
     Then Pop up Edit Password will show
@@ -193,7 +193,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click button ganti password
     Then Pop up Edit Password will show
@@ -217,7 +217,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click button ganti password
     Then Pop up Edit Password will show
@@ -241,7 +241,7 @@ Feature: Edit User Profile
     And User click ok button
     Then User already on Home Page
     When User click icon profile
-    And User click menu "Profil"
+    And User click menu rofil
     Then User already on profile page
     When User click button ganti password
     Then Pop up Edit Password will show
