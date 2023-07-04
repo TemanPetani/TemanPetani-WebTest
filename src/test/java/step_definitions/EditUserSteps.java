@@ -1,19 +1,11 @@
 package step_definitions;
-
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.example.pageObject.EditUserFeature;
-import org.example.pageObject.LoginFeature;
-import org.example.pageObject.RegisterPage;
 import org.openqa.selenium.WebDriver;
-
 import java.time.Duration;
-
-import static step_definitions.Hooks.webDriver;
 
 public class EditUserSteps {
     private WebDriver webDriver;
@@ -29,10 +21,10 @@ public class EditUserSteps {
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
-    @And("User click menu profile")
-    public void userClickMenuProfile() {
+    @And("User click menu \"(.*)\"")
+    public void userClickMenu(String menu) {
         EditUserFeature editUserFeature = new EditUserFeature(webDriver);
-        editUserFeature.clickMenuProfile();
+        editUserFeature.clickMenu(menu);
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
