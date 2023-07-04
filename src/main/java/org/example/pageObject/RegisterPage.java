@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class RegisterPage {
     public static WebDriver driver;
@@ -14,11 +16,10 @@ public class RegisterPage {
         this.driver = driver;
     }
 
-    @FindBy(css = "[alt='img logo']")
-    private static WebElement titleHomePage;
-
     public void verifyLandingPage(){
-        titleHomePage.isDisplayed();
+        String path = "//p[@class='font-semibold text-3xl text-base-100 md:drop-shadow-lg tracking-wide'][.='TEMAN PETANI']";
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath(path))).click();
     }
 
     @FindBy(xpath = "//a[@id='navbar-to-register']")
