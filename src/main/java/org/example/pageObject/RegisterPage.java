@@ -32,8 +32,8 @@ public class RegisterPage {
     @FindBy(xpath = "//button[@id='signup-button']")
     private static WebElement registerBtn;
 
-    public static boolean verifyRegisterPage(){
-        return registerBtn.isDisplayed();
+    public void verifyRegisterPage(){
+        registerBtn.isDisplayed();
     }
 
     public void clickRegisterBtn(){
