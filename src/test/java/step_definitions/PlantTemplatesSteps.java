@@ -1,18 +1,12 @@
 package step_definitions;
-
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.example.pageObject.PlantTemplatesFeature;
 import org.openqa.selenium.WebDriver;
-
 import java.time.Duration;
 import java.util.Objects;
-
-import static org.apache.commons.lang.RandomStringUtils.randomNumeric;
-
 public class PlantTemplatesSteps {
     private WebDriver webDriver;
     public PlantTemplatesSteps(){
