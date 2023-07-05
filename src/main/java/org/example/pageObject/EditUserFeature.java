@@ -11,7 +11,7 @@ public class EditUserFeature {
 
     public EditUserFeature(WebDriver driver) {
         PageFactory.initElements(driver, this);
-        LoginFeature.driver = driver;
+        this.driver = driver;
     }
 
     @FindBy(css = ".dropdown")
