@@ -5,7 +5,6 @@ import cucumber.api.java.en.When;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.example.pageObject.PlantTemplatesFeature;
 import org.openqa.selenium.WebDriver;
-
 import java.time.Duration;
 import java.util.Objects;
 public class PlantTemplatesSteps {
