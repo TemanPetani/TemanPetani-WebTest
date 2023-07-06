@@ -21,26 +21,28 @@ This is Website Automation Testing Project for [Teman Petani App](https://teman-
 ## Test Report
 
 ## Test Coverage
-- Login
+- **Login**
 ![img.png](src/main/resources/test-report/report-login.png)
 
-- Register 
+- **Register** 
 ![img.png](src/main/resources/test-report/report-register.png)
 
-- Edit User Profile
+- **Edit User Profile**
 ![img.png](src/main/resources/test-report/report-edituser.png)
 
-- Jadwal Tanam
+- **Jadwal Tanam**
 ![img_1.png](src/main/resources/test-report/report-jadwaltanam.png)
 
-- Jadwal Petani
+- **Jadwal Petani**
 ![img.png](src/main/resources/test-report/report-jadwalpetani.png)
 
-- Plant
+- **Plant**
 ![img_2.png](src/main/resources/test-report/report-plant.png)
 
 ## Tools & Tech Stack
 - [Java 8](https://www.oracle.com/java/technologies/downloads/#java8)
+- [Selenium](https://www.selenium.dev/)
+- [SerenityBDD](https://serenity-bdd.info/)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
 - IntelliJ IDEA Plugins :  [Cucumber for Java](https://plugins.jetbrains.com/plugin/7212-cucumber-for-java), [Gherkin](https://plugins.jetbrains.com/plugin/9164-gherkin)
 - [Maven](https://maven.apache.org/download.cgi)
