@@ -43,6 +43,9 @@ Test Documentation Web Testing can access [here](https://docs.google.com/spreads
 - **Plant**
 ![img_2.png](src/main/resources/test-report/report-plant.png)
 
+- **Products Admin**
+![img.png](src/main/resources/test-report/report-productsadmin.png)
+
 ## Tools & Tech Stack
 - [Java 8](https://www.oracle.com/java/technologies/downloads/#java8)
 - [Selenium](https://www.selenium.dev/)
