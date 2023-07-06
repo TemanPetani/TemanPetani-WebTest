@@ -18,6 +18,10 @@ TemanPetani is a web application that aims to facilitate access to agricultural 
 
 This is Website Automation Testing Project for [Teman Petani App](https://teman-petani-web.vercel.app/).
 
+## Test Documentation
+
+Test Documentation Web Testing can access [here](https://docs.google.com/spreadsheets/d/1HxIm0A0Ox-4vBJg3HbHxuppSuqoqwjwuUPNeZeDZaak/edit?usp=sharing)
+
 ## Test Report
 
 ## Test Coverage
