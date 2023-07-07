@@ -18,7 +18,8 @@ QE Batch 10 Capstone Project at Altera Academy
 
 ## Test Documentation
 
-Test Documentation Web Testing can access [here](https://docs.google.com/spreadsheets/d/1HxIm0A0Ox-4vBJg3HbHxuppSuqoqwjwuUPNeZeDZaak/edit?usp=sharing)
+Test Documentation Web Testing can access [here](https://docs.google.com/spreadsheets/d/1HxIm0A0Ox-4vBJg3HbHxuppSuqoqwjwuUPNeZeDZaak/edit?usp=sharing).
+![test-documentation.png](src/main/resources/test-report/test-documentation.png)
 
 ## Test Report
 
