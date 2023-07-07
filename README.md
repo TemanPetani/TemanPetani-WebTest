@@ -14,9 +14,7 @@ QE Batch 10 Capstone Project at Altera Academy
 
 ## About
 
-TemanPetani is a web application that aims to facilitate access to agricultural resources for farmers. With this platform, it can help farmers improve crop yields, reduce distribution costs, and increase profits.
-
-This is Website Automation Testing Project for [Teman Petani App](https://teman-petani-web.vercel.app/).
+[Teman Petani App](https://teman-petani-web.vercel.app/) is a web application that aims to facilitate access to agricultural resources for farmers. With this platform, it can help farmers improve crop yields, reduce distribution costs, and increase profits.
 
 ## Test Documentation
 
