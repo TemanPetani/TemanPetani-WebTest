@@ -97,7 +97,7 @@ Feature: Product feature for User Role
       | BCA  | dikirim secepatnya ya |
 
   @WebTest @NegativeCase @ProductsUser
-  Scenario Outline: Buy Product with empty jumlah
+  Scenario Outline: Buy Product with empty catatan
     Given User already on Teman Petani landing page
     When User click on Sign In button
     Then User already on login page
