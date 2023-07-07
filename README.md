@@ -48,6 +48,9 @@ Test Documentation Web Testing can access [here](https://docs.google.com/spreads
 - **Products User**
 ![report-productsuser](src/main/resources/test-report/report-productsuser.png)
 
+- **My Products**
+![report-myproduct](src/main/resources/test-report/report-myproduct.png)
+
 ## Tools & Tech Stack
 - [Java 8](https://www.oracle.com/java/technologies/downloads/#java8)
 - [Selenium](https://www.selenium.dev/)
