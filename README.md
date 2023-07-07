@@ -14,37 +14,39 @@ QE Batch 10 Capstone Project at Altera Academy
 
 ## About
 
-TemanPetani is a web application that aims to facilitate access to agricultural resources for farmers. With this platform, it can help farmers improve crop yields, reduce distribution costs, and increase profits.
-
-This is Website Automation Testing Project for [Teman Petani App](https://teman-petani-web.vercel.app/).
+[Teman Petani App](https://teman-petani-web.vercel.app/) is a web application that aims to facilitate access to agricultural resources for farmers. With this platform, it can help farmers improve crop yields, reduce distribution costs, and increase profits.
 
 ## Test Documentation
 
-Test Documentation Web Testing can access [here](https://docs.google.com/spreadsheets/d/1HxIm0A0Ox-4vBJg3HbHxuppSuqoqwjwuUPNeZeDZaak/edit?usp=sharing)
+Test Documentation Web Testing can access [here](https://docs.google.com/spreadsheets/d/1HxIm0A0Ox-4vBJg3HbHxuppSuqoqwjwuUPNeZeDZaak/edit?usp=sharing).
+![test-documentation.png](src/main/resources/test-report/test-documentation.png)
 
 ## Test Report
 
 ## Test Coverage
 - **Login**
-![img.png](src/main/resources/test-report/report-login.png)
+![report-login](src/main/resources/test-report/report-login.png)
 
 - **Register** 
-![img.png](src/main/resources/test-report/report-register.png)
+![report-register](src/main/resources/test-report/report-register.png)
 
 - **Edit User Profile**
-![img.png](src/main/resources/test-report/report-edituser.png)
+![report-edituser](src/main/resources/test-report/report-edituser.png)
 
 - **Jadwal Tanam**
-![img_1.png](src/main/resources/test-report/report-jadwaltanam.png)
+![report-jadwaltanam](src/main/resources/test-report/report-jadwaltanam.png)
 
 - **Jadwal Petani**
-![img.png](src/main/resources/test-report/report-jadwalpetani.png)
+![report-jadwalpetani](src/main/resources/test-report/report-jadwalpetani.png)
 
 - **Plant**
-![img_2.png](src/main/resources/test-report/report-plant.png)
+![report-plant](src/main/resources/test-report/report-plant.png)
 
 - **Products Admin**
-![img.png](src/main/resources/test-report/report-productsadmin.png)
+![report-productsadmin](src/main/resources/test-report/report-productsadmin.png)
+
+- **Products User**
+![report-productsuser](src/main/resources/test-report/report-productsuser.png)
 
 ## Tools & Tech Stack
 - [Java 8](https://www.oracle.com/java/technologies/downloads/#java8)
