@@ -22,6 +22,7 @@ Test Documentation Web Testing can access [here](https://docs.google.com/spreads
 ![test-documentation.png](src/main/resources/test-report/test-documentation.png)
 
 ## Test Report
+![test-report-overall](src/main/resources/test-report/test-report-overall.png)feature/MyProducts
 
 ## Test Coverage
 - **Login**
