@@ -29,7 +29,6 @@ public class MyProductsFeature {
 
     public void verifyMyProductPage() {
         titleProdukSayaPage.isDisplayed();
-        titleProdukSayaPage.click();
     }
 
     @FindBy(xpath = "//p[.='Produk Saya']/ancestor::div[2]//div[@class='w-full h-full']")
