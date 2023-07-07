@@ -22,6 +22,7 @@ Test Documentation Web Testing can access [here](https://docs.google.com/spreads
 ![test-documentation.png](src/main/resources/test-report/test-documentation.png)
 
 ## Test Report
+![test-report-overall](src/main/resources/test-report/test-report-overall.png)
 
 ## Test Coverage
 - **Login**
@@ -47,6 +48,9 @@ Test Documentation Web Testing can access [here](https://docs.google.com/spreads
 
 - **Products User**
 ![report-productsuser](src/main/resources/test-report/report-productsuser.png)
+
+- **My Products**
+![report-myproduct](src/main/resources/test-report/report-myproduct.png)
 
 ## Tools & Tech Stack
 - [Java 8](https://www.oracle.com/java/technologies/downloads/#java8)
